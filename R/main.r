@@ -66,7 +66,7 @@ ms_esa_query <-
 # 4. ESA Land cover - data download
 
 ms_query_signin <-
-    msrstac::items_sign(
+    rstac::items_sign(
         ms_esa_query,
         rstac::sign_planetary_computer()
     )
